@@ -1,10 +1,10 @@
 
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "VGA GAME"      # Project title
+  author:       "Thomas Cowie"      # Your name
+  discord:      "holden246"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A snake inspired prototype where a sprite is in the centre of the screen and can be moved left/right/down/up by pressing arrows on a game controller"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -28,9 +28,9 @@ pinout:
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
+  ui[4]: "pmod_latch"
+  ui[5]: "pmod_clk"
+  ui[6]: "pmod_data"
   ui[7]: ""
 
   # Outputs
