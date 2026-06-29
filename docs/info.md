@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
-
+A VGA display that has a sprite generated from a bitmap rom that interfaces with a game controller to move the sprite around the screen. This is an early prototype, if synthesis is sucessful I hope to make this into a snake like game.
 ## How to test
 
-Explain how to use your project
+Upload the files into Tiny tapeout VGA playground and move the sprite around screen by pressing the arrow keys on the controller. If the sprite doesn't appear or doesn't move around then it does not work.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
