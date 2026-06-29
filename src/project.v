@@ -10,7 +10,7 @@ parameter DISPLAY_WIDTH = 640;   // Width of visible screen (pixels)
 parameter DISPLAY_HEIGHT = 480;  // Height of visible screen (pixels)
 
 
-module tt_um_Thomas-Cowie-Engineering_VGA-Game (
+module tt_um_ThomasCowieEngineering_VGAGame (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
